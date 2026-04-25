@@ -112,4 +112,10 @@
     <!-- Dark Theme Compatibility -->
     <color name="primary_dark">@color/neon_cyan</color>
     <color name="primary_dark_dark">@color/neon_blue</color>
+<!-- Card Background -->
+<color name="dark_card">#1D1D2D</color>
+
+<!-- Default colors untuk compatibility -->
+<color name="background_light">@color/dark_bg_primary</color>
+<color name="background_dark">@color/dark_bg_primary</color>
 </resources>

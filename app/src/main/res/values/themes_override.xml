@@ -29,31 +29,36 @@
         <item name="android:windowBackground">@color/dark_bg_secondary</item>
     </style>
 
-    <!-- Base Light Theme Override -->
+    <!-- Base Light Theme Override - DIPERBAIKI -->
     <style name="Base.Light" parent="Theme.Material3.Light" tools:override="true">
         <item name="android:statusBarColor">@color/dark_bg_primary</item>
-        <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
-        <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
+        <item name="android:ambientShadowAlpha">0.1</item>
+        <item name="android:spotShadowAlpha">0.1</item>
         <item name="colorPrimary">@color/neon_cyan</item>
         <item name="colorPrimaryVariant">@color/neon_blue</item>
+        <item name="colorOnPrimary">@color/dark_bg_primary</item>
+        <item name="colorSecondary">@color/neon_magenta</item>
+        <item name="colorSecondaryVariant">@color/neon_purple</item>
         <item name="android:colorPrimary">@color/neon_cyan</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
         <item name="colorAlert">@color/neon_red</item>
         <item name="colorSafe">@color/neon_lime</item>
         <item name="colorWarning">@color/neon_orange</item>
-        <item name="colorInactive" tools:ignore="PrivateResource">@color/text_tertiary_neon</item>
         <item name="navigationBarDividerColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
 
-    <!-- Base Dark Theme Override -->
+    <!-- Base Dark Theme Override - DIPERBAIKI -->
     <style name="Base" parent="Theme.Material3.Dark" tools:override="true">
         <item name="android:statusBarColor">@color/dark_bg_primary</item>
-        <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
-        <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
+        <item name="android:ambientShadowAlpha">0.1</item>
+        <item name="android:spotShadowAlpha">0.1</item>
         <item name="colorPrimary">@color/neon_cyan</item>
         <item name="colorPrimaryVariant">@color/neon_blue</item>
+        <item name="colorOnPrimary">@color/dark_bg_primary</item>
+        <item name="colorSecondary">@color/neon_magenta</item>
+        <item name="colorSecondaryVariant">@color/neon_purple</item>
         <item name="android:colorPrimary">@color/neon_cyan</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
         <item name="colorAlert">@color/neon_red</item>
         <item name="colorSafe">@color/neon_lime</item>
         <item name="colorWarning">@color/neon_orange</item>

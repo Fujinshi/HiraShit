@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme.DarkNeon" />
+    <style name="AppTheme" parent="Theme" />
 
     <style name="Widget.Design.SubtitleCollapsingToolbar" parent="Widget.Design.CollapsingToolbar" />
 
@@ -83,21 +83,4 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <!-- Dark Neon Base Theme -->
-    <style name="Theme.DarkNeon" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">@color/neon_cyan</item>
-        <item name="colorPrimaryVariant">@color/neon_blue</item>
-        <item name="colorSecondary">@color/neon_magenta</item>
-        <item name="colorSecondaryVariant">@color/neon_purple</item>
-        <item name="colorSurface">@color/dark_surface</item>
-        <item name="colorBackground">@color/dark_bg_primary</item>
-        <item name="colorOnPrimary">@color/dark_bg_primary</item>
-        <item name="colorOnSecondary">@color/dark_bg_primary</item>
-        <item name="colorOnSurface">@color/text_primary_neon</item>
-        <item name="colorOnBackground">@color/text_primary_neon</item>
-        <item name="android:statusBarColor">@color/dark_bg_primary</item>
-        <item name="android:navigationBarColor">@color/dark_bg_primary</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
-    </style>
 </resources>
