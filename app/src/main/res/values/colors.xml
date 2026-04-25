@@ -1,62 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_text_material_inverse">@color/abc_primary_text_material_dark</color>
-    <color name="primary_text_material">@color/abc_primary_text_material_light</color>
-
-    <color name="ic_launcher_foreground">#FFFFFF</color>
-    <color name="ic_launcher_background">#F48FB1</color>
-
-    <color name="material_state_yellow">@color/material_yellow_A400</color>
-    <color name="material_state_green">@color/material_green_A400</color>
-    <color name="material_state_red">@color/material_red_A400</color>
-
-    <color name="codeview_background">#282C34</color>
-    <color name="codeview_selector">#61aeee</color>
-    <color name="codeview_units">#d19a66</color>
-    <color name="codeview_important">#d19a66</color>
-    <color name="codeview_properties">#56b6c2</color>
-    <color name="codeview_comments">#757875</color>
-    <color name="codeview_text">#FFFFFF</color>
-    <color name="codeview_css_properties">#cc7832</color>
-    <color name="codeview_nth_child">#e0c46c</color>
-    <color name="primary_background">@color/background_light</color>
-    <color name="codeview_strings">#24D52B</color>
-
-    <color name="gradient_start_primary">#26A69A</color>
-    <color name="gradient_end_primary">#00796B</color>
-    <color name="gradient_start_success">#4CAF50</color>
-    <color name="gradient_end_success">#1B5E20</color>
-    <color name="gradient_start_error">#FF5252</color>
-    <color name="gradient_end_error">#D50000</color>
-    <color name="gradient_start_warning">#FFD740</color>
-    <color name="gradient_end_warning">#FF6D00</color>
-
-    <color name="whatsapp_green">#25D366</color>
-    <color name="whatsapp_dark_green">#128C7E</color>
-    <color name="whatsapp_teal">#075E54</color>
-
-    <color name="surface_elevated">#FAFAFA</color>
-    <color name="surface_container">#F5F5F5</color>
-    <color name="surface_container_high">#EEEEEE</color>
-
-    <color name="nav_indicator">#E8F5E9</color>
-    <color name="nav_background">#FFFFFF</color>
-
-    <color name="ripple_color">#1F000000</color>
-
-    <color name="card_shadow">#14000000</color>
-
-    <color name="status_active">#00E676</color>
-    <color name="status_inactive">#FF5252</color>
-    <color name="status_warning">#FFAB40</color>
-
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
-    <color name="text_tertiary">#9E9E9E</color>
-    <color name="text_on_gradient">#FFFFFF</color>
-
-    <color name="background_color">#FAFAFA</color>
-    <color name="surface_color">#FFFFFF</color>
-    <color name="primary_color">#00796B</color>
-    <color name="selected_item_color">#4D2196F3</color> <!-- Light Blue with transparency -->
+    <!-- ============ DARK NEON AESTHETIC THEME ============ -->
+    
+    <!-- Primary Neon Colors -->
+    <color name="neon_cyan">#00FFFF</color>
+    <color name="neon_magenta">#FF00FF</color>
+    <color name="neon_lime">#39FF14</color>
+    <color name="neon_purple">#BF00FF</color>
+    <color name="neon_blue">#0088FF</color>
+    <color name="neon_pink">#FF1493</color>
+    <color name="neon_orange">#FF6600</color>
+    <color name="neon_yellow">#FFEA00</color>
+    <color name="neon_red">#FF3333</color>
+    
+    <!-- Dark Background Colors -->
+    <color name="dark_bg_primary">#0A0A0F</color>
+    <color name="dark_bg_secondary">#12121A</color>
+    <color name="dark_bg_tertiary">#1A1A2E</color>
+    <color name="dark_surface">#161626</color>
+    <color name="dark_elevated">#1E1E30</color>
+    <color name="dark_card">#1D1D2D</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_neon">#F0F0FF</color>
+    <color name="text_secondary_neon">#A0A0CC</color>
+    <color name="text_tertiary_neon">#606088</color>
+    <color name="text_on_gradient_neon">#FFFFFF</color>
+    
+    <!-- Backward compatibility -->
+    <color name="primary_text_material_inverse">@color/text_primary_neon</color>
+    <color name="primary_text_material">@color/text_primary_neon</color>
+    
+    <!-- Icon Launcher -->
+    <color name="ic_launcher_foreground">@color/neon_cyan</color>
+    <color name="ic_launcher_background">@color/dark_bg_primary</color>
+    
+    <!-- Material States (Neon) -->
+    <color name="material_state_yellow">@color/neon_yellow</color>
+    <color name="material_state_green">@color/neon_lime</color>
+    <color name="material_state_red">@color/neon_red</color>
+    
+    <!-- Code View - Dark Neon Style -->
+    <color name="codeview_background">#0D0D15</color>
+    <color name="codeview_selector">@color/neon_cyan</color>
+    <color name="codeview_units">@color/neon_magenta</color>
+    <color name="codeview_important">@color/neon_magenta</color>
+    <color name="codeview_properties">@color/neon_cyan</color>
+    <color name="codeview_comments">#6A6A8A</color>
+    <color name="codeview_text">@color/text_primary_neon</color>
+    <color name="codeview_css_properties">@color/neon_lime</color>
+    <color name="codeview_nth_child">@color/neon_yellow</color>
+    <color name="primary_background">@color/dark_bg_primary</color>
+    <color name="codeview_strings">@color/neon_lime</color>
+    
+    <!-- Gradients (Neon) -->
+    <color name="gradient_start_primary">@color/neon_cyan</color>
+    <color name="gradient_end_primary">@color/neon_blue</color>
+    <color name="gradient_start_success">@color/neon_lime</color>
+    <color name="gradient_end_success">#00AA00</color>
+    <color name="gradient_start_error">@color/neon_pink</color>
+    <color name="gradient_end_error">#CC0066</color>
+    <color name="gradient_start_warning">@color/neon_yellow</color>
+    <color name="gradient_end_warning">@color/neon_orange</color>
+    
+    <!-- WhatsApp Colors (Neon Override) -->
+    <color name="whatsapp_green">@color/neon_lime</color>
+    <color name="whatsapp_dark_green">#00AA55</color>
+    <color name="whatsapp_teal">#00CCAA</color>
+    
+    <!-- Surface Colors -->
+    <color name="surface_elevated">@color/dark_elevated</color>
+    <color name="surface_container">@color/dark_surface</color>
+    <color name="surface_container_high">#222236</color>
+    
+    <!-- Navigation -->
+    <color name="nav_indicator">@color/neon_cyan</color>
+    <color name="nav_background">@color/dark_bg_primary</color>
+    
+    <!-- Effects -->
+    <color name="ripple_color">#3300FFFF</color>
+    <color name="card_shadow">#33000000</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active">@color/neon_lime</color>
+    <color name="status_inactive">@color/neon_red</color>
+    <color name="status_warning">@color/neon_orange</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">@color/text_primary_neon</color>
+    <color name="text_secondary">@color/text_secondary_neon</color>
+    <color name="text_tertiary">@color/text_tertiary_neon</color>
+    <color name="text_on_gradient">@color/text_on_gradient_neon</color>
+    
+    <!-- Background & Surface -->
+    <color name="background_color">@color/dark_bg_primary</color>
+    <color name="surface_color">@color/dark_surface</color>
+    <color name="primary_color">@color/neon_cyan</color>
+    <color name="selected_item_color">#3300FFFF</color>
+    
+    <!-- Additional Neon Elements -->
+    <color name="neon_divider">#222240</color>
+    <color name="switch_track_off">#2A2A3A</color>
+    <color name="switch_track_on">#4400FFFF</color>
+    <color name="neon_glow">#00FFFF</color>
+    
+    <!-- Light Theme Compatibility (minimal) -->
+    <color name="primary_light">@color/neon_cyan</color>
+    <color name="primary_dark_light">@color/neon_blue</color>
+    <color name="primary_dark_light_light_status_bar">@color/dark_bg_primary</color>
+    
+    <!-- Dark Theme Compatibility -->
+    <color name="primary_dark">@color/neon_cyan</color>
+    <color name="primary_dark_dark">@color/neon_blue</color>
 </resources>

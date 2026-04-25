@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ThemeOverlay.MaterialGreen" parent="ThemeOverlay.Light.MaterialGreen"/>
-    <style name="ThemeOverlay.MaterialBlue" parent="ThemeOverlay.Light.MaterialBlue"/>
-    <style name="ThemeOverlay.MaterialCyan" parent="ThemeOverlay.Light.MaterialCyan"/>
-    <style name="ThemeOverlay.MaterialPurple" parent="ThemeOverlay.Light.MaterialPurple"/>
-    <style name="ThemeOverlay.MaterialOrange" parent="ThemeOverlay.Light.MaterialOrange"/>
-    <style name="ThemeOverlay.MaterialRed" parent="ThemeOverlay.Light.MaterialRed"/>
-    <style name="ThemeOverlay.MaterialPink" parent="ThemeOverlay.Light.MaterialPink"/>
+    <!-- Neon Theme Overlays -->
+    <style name="ThemeOverlay.MaterialGreen" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialBlue" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialCyan" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialPurple" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialOrange" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialRed" parent="ThemeOverlay.NeonBase"/>
+    <style name="ThemeOverlay.MaterialPink" parent="ThemeOverlay.NeonBase"/>
+    
+    <!-- Base Neon Theme Overlay -->
+    <style name="ThemeOverlay.NeonBase" parent="ThemeOverlay">
+        <item name="colorPrimary">@color/neon_cyan</item>
+        <item name="colorPrimaryVariant">@color/neon_blue</item>
+        <item name="colorSecondary">@color/neon_magenta</item>
+        <item name="android:colorBackground">@color/dark_bg_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary_neon</item>
+        <item name="android:textColorSecondary">@color/text_secondary_neon</item>
+    </style>
 </resources>
