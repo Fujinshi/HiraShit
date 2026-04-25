@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="Theme" />
+    <style name="AppTheme" parent="Theme.Light" />
 
     <style name="Widget.Design.SubtitleCollapsingToolbar" parent="Widget.Design.CollapsingToolbar" />
 
     <style name="TextAppearance.Design.SubtitleCollapsingToolbar.ExpandedTitle" parent="TextAppearance.Design.CollapsingToolbar.Expanded" />
 
     <style name="TextAppearance.Design.SubtitleCollapsingToolbar.ExpandedSubtitle" parent="TextAppearance.AppCompat.Title">
-        <item name="android:textColor">@color/text_secondary_neon</item>
+        <item name="android:textColor">@color/text_neon_secondary</item>
     </style>
 
     <style name="language_menu_style" parent="ThemeOverlay.Preference.SimpleMenuPreference.PopupMenu">
@@ -59,7 +59,7 @@
 
     <style name="SectionDescription">
         <item name="android:textAppearance">?textAppearanceBodyMedium</item>
-        <item name="android:textColor">@color/text_secondary_neon</item>
+        <item name="android:textColor">@color/text_neon_secondary</item>
         <item name="android:lineSpacingMultiplier">1.3</item>
     </style>
 
